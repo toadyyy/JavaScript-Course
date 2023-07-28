@@ -1,0 +1,86 @@
+html {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #212F3D;
+    color: #DC7633;
+}
+
+pre {
+    border: 2px solid #17202A;
+    background-color: #2C3E50;
+    color: #E74C3C;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+    border-left: 12px solid #17202A;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+code {
+    border: 10px, #17202A;
+    background-color: #2C3E50;
+}
+
+h1 {
+	border-bottom: 1px solid #17202A;
+	padding-left: 19px;
+	color: #873600;
+}
+
+.bracket {
+    color: #B03A2E;
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.flex-child {
+    flex: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid #17202A;
+    margin: 5px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #2C3E50;
+}  
+
+.flex-child h2 {
+    border-bottom: 1px solid #17202A;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    color: #D35400;
+}
+
+.nobr {
+     white-space: nowrap 
+}
+
+.yesbr {
+    white-space: normal;
+}
+
+.radio-style {
+    border: none;
+}
+
+th, td {
+    text-align: center;
+    border: 2px solid #17202A;
+    border-collapse: collapse;
+}
+
+
+
+table {
+    width: 95%;
+    border: 2px solid #17202A;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
